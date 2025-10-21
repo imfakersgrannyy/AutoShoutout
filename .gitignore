@@ -1,0 +1,17 @@
+# Build-Ordner
+dist/
+out/
+
+# Electron-Binaries
+*.exe
+*.dll
+*.dmg
+*.AppImage
+
+# Node modules
+node_modules/
+
+# Logs, Cache
+*.log
+.DS_Store
+Thumbs.db

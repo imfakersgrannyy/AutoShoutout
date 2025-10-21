@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>AutoShoutout</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>AutoShoutout Tool</h1>
+
+    <div id="status">Wird geladen...</div>
+
+    <div class="box">
+      <p><b>Twitch-Name:</b> <span id="username">-</span></p>
+      <p><b>Token:</b> <span id="token">-</span></p>
+      <p><b>Shoutouts:</b> <span id="shoutouts">-</span></p>
+    </div>
+
+    <div class="box">
+      <button id="startBtn" disabled>Shoutouts senden</button>
+      <button id="loadTokenBtn">Token laden</button>
+      <button id="loadConfigBtn">Config laden</button>
+      <button id="editConfigBtn">Config bearbeiten</button>
+    </div>
+
+    <div class="box">
+      <b>Log:</b>
+      <pre id="log"></pre>
+    </div>
+
+    <footer id="footer" class="footer">Powered by Noblesse</footer>
+
+    <script src="renderer.js"></script>
+  </body>
+</html>

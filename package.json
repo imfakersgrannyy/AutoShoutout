@@ -1,0 +1,44 @@
+{
+  "name": "autoshoutout",
+  "version": "1.0.3",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/imfakersgrannyy/AutoShoutout.git"
+  },
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "dependencies": {
+    "electron-updater": "^6.6.2",
+    "tmi.js": "^1.8.5"
+  },
+  "description": "",
+  "keywords": [],
+  "author": "noblesse",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^38.3.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.noblesse.autoshoutout",
+    "productName": "AutoShoutout",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    }
+  },
+  "publish": [
+    {
+      "provider": "github",
+      "owner": "imfakersgrannyy",
+      "repo": "AutoShoutout",
+      "releaseType": "release"
+    }
+  ]
+}
