@@ -34,27 +34,8 @@ function decrypt(encryptedText) {
 }
 
 const defaultConfig = {
-  username: "nobl3esse",
-  shoutouts: [
-    "bardocksen",
-    "MiuKaze",
-    "sm_art_in",
-    "kirschflip",
-    "pflughund",
-    "cleja_",
-    "nobl3esse",
-    "biberbruder91",
-    "dexrodar",
-    "daceus",
-    "mary_lou_official",
-    "schiefelmann",
-    "caraja92",
-    "SyranoDX",
-    "jay_klay",
-    "papa_razz",
-    "stoepselino",
-    "darkgothic_88",
-  ],
+  username: "DEIN_TWITCH_NAME",
+  shoutouts: ["nobl3esse", "NightmageDxD"],
 };
 
 function ensureAppFolder() {
