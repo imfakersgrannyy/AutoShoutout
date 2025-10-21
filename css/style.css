@@ -47,6 +47,15 @@ h1 {
   margin-top: 15px;
 }
 
+button i {
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+#status i {
+  margin-right: 6px;
+}
+
 button {
   background: #9146ff;
   border: none;

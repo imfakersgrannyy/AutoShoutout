@@ -4,9 +4,13 @@
     <meta charset="UTF-8" />
     <title>AutoShoutout</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
   <body>
-    <h1>AutoShoutout Tool</h1>
+    <h1><i class="fa-brands fa-twitch"></i> AutoShoutout Tool</h1>
 
     <div id="status">Wird geladen...</div>
 
@@ -17,10 +21,18 @@
     </div>
 
     <div class="box">
-      <button id="startBtn" disabled>Shoutouts senden</button>
-      <button id="loadTokenBtn">Token laden</button>
-      <button id="loadConfigBtn">Config laden</button>
-      <button id="editConfigBtn">Config bearbeiten</button>
+      <button id="startBtn" disabled>
+        <i class="fa-solid fa-bullhorn"></i> Shoutouts senden
+      </button>
+      <button id="loadTokenBtn">
+        <i class="fa-solid fa-key"></i> Token laden
+      </button>
+      <button id="loadConfigBtn">
+        <i class="fa-solid fa-gear"></i> Config laden
+      </button>
+      <button id="editConfigBtn">
+        <i class="fa-solid fa-pen-to-square"></i> Config bearbeiten
+      </button>
     </div>
 
     <div class="box">
@@ -28,7 +40,9 @@
       <pre id="log"></pre>
     </div>
 
-    <footer id="footer" class="footer">Powered by Noblesse</footer>
+    <footer id="footer" class="footer">
+      <i class="fa-brands fa-github"></i> Powered by Noblesse
+    </footer>
 
     <script src="renderer.js"></script>
   </body>
