@@ -32,14 +32,14 @@
     "win": {
       "target": "nsis",
       "icon": "icon.ico"
-    }
-  },
-  "publish": [
-    {
-      "provider": "github",
-      "owner": "imfakersgrannyy",
-      "repo": "AutoShoutout",
-      "releaseType": "release"
-    }
-  ]
+    },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "imfakersgrannyy",
+        "repo": "AutoShoutout",
+        "releaseType": "release"
+      }
+    ]
+  }
 }
