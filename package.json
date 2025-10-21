@@ -1,12 +1,12 @@
 {
   "name": "autoshoutout",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "repository": {
-  "type": "git",
-  "url": "https://github.com/imfakersgrannyy/AutoShoutout.git"
+    "type": "git",
+    "url": "https://github.com/imfakersgrannyy/AutoShoutout.git"
   },
   "main": "main.js",
-  "scripts": {  
+  "scripts": {
     "start": "electron .",
     "dist": "electron-builder",
     "release": "npm version patch && git add . && git commit -m \"Release v%npm_package_version%\" && git tag v%npm_package_version% && git push --follow-tags && npx electron-builder --publish always"
