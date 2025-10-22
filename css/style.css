@@ -14,8 +14,8 @@
 
 :root {
   --background-color: #373737;
-  --container-color: #555555;
-  --button-color: #818181;
+  /*--container-color: #555555;*/
+  /*--button-color: #818181;*/
   --accent-color: #a1a1a1;
   --text-color: #c0c0c0;
 }
@@ -86,6 +86,25 @@ button:hover:not(:disabled) {
 button:disabled {
   opacity: 0.5;
   cursor: not-allowed;
+}
+
+a {
+  color: #9146ff;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+a:hover {
+  color: #a263ff;
+  text-decoration: underline;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+li {
+  list-style: decimal;
 }
 
 pre {
